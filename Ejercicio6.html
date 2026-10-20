@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de acceso</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="usuario">Nombre de usuario:</label>
+    <input type="text" id="usuario" name="usuario"><br><br>
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <input type="submit" value="Acceder">
+  </form>
+  <br><br>
+  <form action="php.php" method="post">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="apellidos">Apellidos</label>
+    <input type="text" id="apellidos" name="apellidos"><br><br>
+
+    <label>Sexo</label><br>
+    <input type="radio" id="hombre" name="sexo" value="Hombre">
+    <label for="hombre">Hombre</label>
+    <input type="radio" id="mujer" name="sexo" value="Mujer">
+    <label for="mujer">Mujer</label><br><br>
+
+    <label for="fecha">Fecha de nacimiento</label>
+    <input type="date" id="fecha" name="fecha"><br><br>
+
+    <label for="direccion">Dirección</label>
+    <input type="text" id="direccion" name="direccion"><br><br>
+
+    <input type="submit" id="boton" value="Enviar">
+  </form>
+  <form action="#" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos"><br><br>
+    <label>Sexo</label>
+    <input type="radio" id="hombre" name="sexo" value="Masculino">
+    <label for="hombre">Masculino</label>
+    <input type="radio" id="mujer" name="sexo" value="Femenino">
+    <label for="mujer">Femenino</label><br><br>
+    <label>Nivel de estudios</label>
+    <input type="checkbox" id="sin_e" name="estudios" value="Sin_e">
+    <label for="sin_e">Sin Estudios</label>
+    <input type="checkbox" id="Tecnico" name="estudios" value="Tecnico" checked>
+    <label for="Tecnico">Tecnico</label>
+    <input type="checkbox" id="universitario" name="estudios" value="Universitario">
+    <label for="universitario">Unviersitario</label>
+        <input type="checkbox" id="otros" name="estudios" value="otros">
+    <label for="otros">Otros</label><br><br>
+
+    <label for="ciudad">Ciudad de nacimiento</label>
+    <select id="ciudad" name="ciudad">
+        <option value="Sevilla" selected>Sevilla</option>
+        <option value="Canada" >Canada</option>
+        <option value="Osuna" >Osuna</option>
+    </select>
+    <br><br>
+    <label for="curriculum">Curriculum</label>
+    <input type="file" name="curriculum" value="curriculum"><br><br>
+     <label for="fotografia">Fotografia</label>
+    <input type="file" name="fotografia" value="fotografia"><br><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
