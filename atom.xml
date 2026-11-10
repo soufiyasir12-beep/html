@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:meta="https://lenguajesdemarcas.example.com/ns/feed-metadata"
+      xml:lang="es">
+  <title>Lenguajes de Marcas</title>
+  <link href="https://lenguajesdemarcas.example.com"/>
+  <link href="https://soufiyasir12-beep.github.io/html/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://lenguajesdemarcas.example.com/</id>
+  <subtitle>Noticias sobre la evolución de los lenguajes de marcas. No se actualiza los domingos ni los lunes; el contenido se almacena como máximo durante 1 minuto.</subtitle>
+  <rights>Copyright@2026</rights>
+  <updated>2026-11-10T00:00:00Z</updated>
+  <meta:ttl unit="minutes">1</meta:ttl>
+  <meta:skipDay>Sunday</meta:skipDay>
+  <meta:skipDay>Monday</meta:skipDay>
+  <author>
+    <name>Lenguajes de Marcas</name>
+  </author>
+  <entry>
+    <title>Los inicios de los lenguajes de marcas.</title>
+    <link href="https://lenguajesdemarcas.example.com/noticias1"/>
+    <id>https://lenguajesdemarcas.example.com/noticias1</id>
+    <summary>Origen y evolución de los primeros lenguajes de marcas.</summary>
+    <published>2025-01-18T12:00:00Z</published>
+    <updated>2025-01-18T12:00:00Z</updated>
+    <author>
+      <name>Ana López</name>
+    </author>
+  </entry>
+  <entry>
+    <title>HTML y la evolución de la Web.</title>
+    <link href="https://lenguajesdemarcas.example.com/noticias2"/>
+    <id>https://lenguajesdemarcas.example.com/noticias2</id>
+    <summary>Evolución de HTML y su importancia en el desarrollo de la Web.</summary>
+    <published>2025-01-23T12:00:00Z</published>
+    <updated>2025-01-23T12:00:00Z</updated>
+    <author>
+      <name>Carlos García</name>
+    </author>
+  </entry>
+</feed>
